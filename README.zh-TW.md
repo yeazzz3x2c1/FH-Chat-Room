@@ -2,8 +2,6 @@
 
 [English](README.md) | [繁體中文](README.zh-TW.md)
 
-# FH-Chat Room
-
 FH-Chat Room 是一個教育專案，旨在帶領學生一步一步實現基於TCP Socket的即時通訊軟體。本教材的主要目的是幫助學生通過構建支援文字訊息傳輸與檔案傳輸的簡單聊天應用程式來學習並應用Socket程式設計概念。
 
 ## 開發語言

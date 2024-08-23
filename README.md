@@ -2,8 +2,6 @@
 
 [English](README.md) | [繁體中文](README.zh-TW.md)
 
-# FH-Chat Room
-
 FH-Chat Room is an educational project designed to guide students through the step-by-step implementation of real-time communication software using TCP sockets. The primary goal of this teaching material is to help students learn and apply socket programming concepts by building a simple chat application that supports text messaging and file transfer.
 
 ## Development Languages
