@@ -1,0 +1,26 @@
+﻿<Window xmlns:Controls="clr-namespace:Client_Application.Controls"  x:Class="Client_Application.Pages.Chat_Room_Page"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client_Application.Pages"
+        mc:Ignorable="d"
+        Title="Chat_Room_Page" Height="450" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="Message_Container" Background="#FF2D2E30" Grid.RowSpan="1">
+
+        </StackPanel>
+        <Grid Grid.RowSpan="1" Grid.Row="1" Background="#FF2D2E30" >
+            <TextBox x:Name="Input_Message" Margin="5" Background="Transparent" KeyDown="On_Key_Down" Foreground="White">
+
+            </TextBox>
+            <Button HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10" Click="On_Upload_File">
+                上傳檔案
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

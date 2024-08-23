@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="Client_Application.Controls.File_Block"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Client_Application.Controls"
+             mc:Ignorable="d" >
+    <Grid>
+        <StackPanel>
+            <local:Message_Block x:Name="Message_Block"></local:Message_Block>
+            <TextBlock Text="下載" Foreground="#FF0079FF" TextDecorations="Underline" PreviewMouseLeftButtonDown="Download_File" />
+        </StackPanel>
+    </Grid>
+</UserControl>

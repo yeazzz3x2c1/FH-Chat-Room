@@ -1,0 +1,20 @@
+﻿Client_Application
+1.0.0.0
+
+winexe
+C#
+.cs
+F:\WHJJ\Chat System\FH-Chat-Room\Client_Application\Client_Application\obj\Debug\net6.0-windows\
+Client_Application
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+F:\WHJJ\Chat System\FH-Chat-Room\Client_Application\Client_Application\App.xaml
+5893468498
+
+18-680952950
+194183970531
+Controls\File_Block.xaml;Controls\Message_Block.xaml;Pages\Chat_Room_Page.xaml;Pages\Connecting_Page.xaml;Pages\Username_Page.xaml;
+
+False
+
